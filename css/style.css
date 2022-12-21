@@ -25,14 +25,18 @@ h1, h2, h3, h4, h5, h6{
   margin: 1em auto;
 }
 
-.logo{
+
+
+h1.logo{
   text-transform: uppercase;
   width: 50%;
   float: left;
-  color: #96746b;
 }
 
+
 h1.logo a{
+  font-family: 'Oswald', sans-serif;
+  color: #96746b;
   text-decoration: none;
 }
 
@@ -74,13 +78,13 @@ h1.logo a{
 }
 
 .banner-text h2{
-  color: #c7a17a;
+  color: #96746b;
   font-size: 4em;
   text-transform: uppercase;
 }
 
 .banner-text h2 span{
-  color: #96746b;
+  color: #c7a17a;
 }
 
 .banner-text p{
