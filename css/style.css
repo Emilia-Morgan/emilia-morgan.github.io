@@ -212,7 +212,32 @@ text-decoration: none;
   margin-top: 1em;
 }
 /* end of the discount banner */
-/* staet of the form */
+
+/* start of the merch sale */
+.merch-sale{
+  width: 85%;
+  margin: 4em auto;
+}
+/* end of the merch sale */
+/* start of the ads 2 */
+
+.ads3{
+  margin-right: 3%;
+  background-image: url('../img/ads-img3.jpg');
+}
+.ads4{
+  background-image: url('../img/ads-img4.jpg');
+}
+.ads5{
+  margin-right: 3%;
+  background-image: url('../img/ads-img5.jpg');
+}
+.ads6{
+  background-image: url('../img/ads-img6.jpg');
+}
+
+/* end of the ads 2*/
+/* start of the form */
 .reservation{
   width: 85%;
   margin: 4em auto;
