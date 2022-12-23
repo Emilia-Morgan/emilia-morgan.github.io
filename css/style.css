@@ -253,6 +253,20 @@ h1.logo a{
   width: 85%;
   margin: 4em auto;
 }
+.reservation .header{
+  text-align: center;
+}
+.reservation .header h2{
+  text-transform: uppercase;
+  color: #312a26;
+}
+.reservation .header hr{
+  background-color: #c7a17a;
+  height: 2px;
+  width: 25%;
+  margin: auto;
+}
+
 form{
   overflow: auto;
 }
@@ -283,8 +297,10 @@ form label{
 .res-time{
   text-align: center;
 }
+
 .res-time *{
   width: auto;
+  margin-top: 1em;
 }
 form p{
   margin: 1em;
@@ -305,7 +321,7 @@ form h3::after{
   height: 30px;
   margin: auto;
 }
-.res-agreement *{
+.terms *{
   width: auto;
 }
 form input[type="submit"]{
@@ -328,13 +344,13 @@ form input[type="submit"]{
   margin: auto;
   overflow: auto;
 }
-.footer-contents:nth-child(4){
-  margin-right: 0;
-}
 .footer-widgets{
-  width: 24.5%;
+  width: 24.25%;
   float: left;
   margin-right: 1%;
+}
+.footer-widgets:nth-child(4){
+  margin-right: 0;
 }
 .footer-widgets h3{
   color: #fff;
